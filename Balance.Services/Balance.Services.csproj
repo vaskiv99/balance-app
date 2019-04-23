@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="identityserver4" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Balance.DAL\Balance.DAL.csproj" />
+    <ProjectReference Include="..\Balance.Infrastructure\Balance.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
